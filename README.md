@@ -1,5 +1,5 @@
 # 23-BucketSort
-Array sort Algorithm that hash the values to sort  
+Array sort algorithm that hash the values to sort  
 
 Three phases:  
 1. Scattering phase: distribute the items into buckets based on their hashed values;  

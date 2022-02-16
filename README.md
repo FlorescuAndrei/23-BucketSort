@@ -7,9 +7,14 @@ Three phases:
 3. Gathering phase: merge the buckets   
 
 The values in bucket X must be greater than the values in bucket X-1 and less than X+1. The hash function must meet this requirement.  
-Insertion sort is usually used to sort the buckets. 
 
-Preform better when hashed values of items being sorted are evenly distributed, so there aren’t many collisions.  
+Preform better when hashed values of items being sorted are evenly distributed, so there aren’t many collisions.   
+
+Bucket Sort  
+-  Not in-place
+-  Stability will depend on sort algorithm used to sort the buckets
+-  To achive O(n) must have only one item per bucket
+-  Insertion sort is often used to sort the buckets because it is fast when the number of items it is small
 
 The algorithm make assumptions about data and can sort in O(n) time.  
 
